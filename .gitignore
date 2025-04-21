@@ -3,3 +3,18 @@
 /data/your_training_dataset_non_preprocessed/
 /ckpts/your_training_dataset/
 /preprocess
+
+# Ignore
+.env
+.venv
+model/
+data/
+outputs/
+voice_samples/
+
+# Ignore all eggs
+*.egg-info
+
+# Ignore all pycache
+__pycache__/
+*.pyc
